@@ -1,0 +1,523 @@
+/************** GLOBAL **************/
+
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+
+ul{
+    list-style: none;
+     padding-left: 0 !important;
+        
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button, input{
+    font-size: revert !important;
+    }
+
+
+/************** BODY **************/
+
+#home{
+    background-color: grey;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-family: 'Roboto', sans-serif;
+    height: 150vh;
+    
+}
+
+
+#body{
+    margin: none;
+    width: 100%;
+    height: 50vh;
+    background-image: url(./img-fond/img-fond-connexion.jpeg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/************** HEADER **************/
+
+header{
+    position: absolute;
+    background-color: rgb(158, 154, 154);
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 1.5vh;
+    margin-top: 10px;
+    height: 9vh;
+    box-shadow: 10;
+    z-index: 3;
+    position: fixed;
+}
+
+#bar-head{
+width: 70%;
+background-color: black;
+border-radius: 20px;
+height: 8vh;
+margin-top: 5px;
+margin-left: 0.5vh;
+border: 5px ridge white ;
+display: flex;
+
+
+}
+
+header img{
+    border-radius: 20px;
+    display: flex;
+    padding: 0.5vh;
+    margin-left: 5px;
+    height: 50px;
+    margin-top: 1vh;
+
+}
+
+.info-user{
+    position: absolute;
+    color: white;
+    right: 0;
+    margin-right: 26vh;
+    font-size: 1.5rem;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+.info-user p{
+    margin-bottom: 0;
+}
+
+
+.date{
+    position: absolute;
+    color: white;
+    right: 38%;
+    bottom: 3.5vh;
+    font-size: 1.5rem;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+/************** NAVBAR **************/
+
+nav{
+
+    width: 20vh;
+    background-color: rgb(189, 186, 186);
+    padding: 16vh 0; 
+    box-shadow: 1px 1px 5px 5px ;
+    z-index: 2;
+    
+
+}
+
+
+
+/************** NAVBAR HOVER **************/
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-size: 1.1rem;
+    color: blue;
+}
+
+nav a li:hover{
+
+    box-shadow: 0px 5px 5px blue;
+
+}
+
+
+.exit{
+
+margin-bottom: 10px;
+
+}
+
+
+.general, .clients,.prospection,.commandes,.delegues{
+
+border-top: ridge grey;
+margin-bottom: 15px;
+
+
+
+}
+
+.general h1{
+    font-weight: 900;
+    width: 100%;
+    font-size: 1.2rem;
+    border-bottom: 10px groove!important;
+    margin: 5px 0;
+    border-image:  linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+}
+
+
+.clients h1{
+    font-weight: 900;
+    width: 100%;
+    font-size: 1.2rem;
+    border-bottom: 10px solid blue;
+    margin: 5px 0;
+  border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+  
+            
+            }
+
+.prospection h1{
+    width: 100%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-bottom: 10px solid blue;
+    margin:5px 0;
+  border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+                    
+                    }
+
+.commandes h1{
+    width: 100%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-bottom: 10px solid blue;
+    margin: 5px 0;
+  border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+ 
+                            
+                            }
+
+.delegues h1{
+    width: 100%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-bottom: 10px outset blue;
+    margin: 5px 0;
+    border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+
+                             
+                                    }
+
+/************** PAGE PRINCIPALE **************/
+
+.nav-home{
+    display: flex;
+}
+#page-client{
+    background-color: grey;
+    border-top: 10px solid ;
+    border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+    margin-top: 11vh;
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#info-client{
+    margin-top: 2vh;
+    background-color: grey;
+}
+
+
+/************** PAGE PRINCIPALE H1 **************/
+#page-client h1{
+    font-size: 1.4rem;
+    width: 80%;
+    box-shadow: 3px 3px 10px black;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(189, 186, 186);
+    border-bottom: 10px solid ;
+    border-image: linear-gradient(to right, rgb(0, 0, 173), rgb(133, 142, 198)) 1;
+
+}
+
+/************** FICHE CLIENT **************/
+
+.fiche-client{
+    background-color: rgb(170, 170, 170);
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    width: 80%;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.fiche-client p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.3rem;
+    margin: 1.5vh auto;
+    
+}
+
+.fiche-client h2{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background: linear-gradient( rgb(0, 0, 173), rgb(133, 142, 198));
+    border-radius: 10px;
+    color: white;
+}
+
+.fiche-client th{
+    text-decoration: underline;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 0.4rem;
+    font-size: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.fiche-client td{
+    text-decoration: underline;
+    border-width: 10;
+    border: 2px solid grey;
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    color: white;
+    text-shadow: rgba(0,0,0,.6) 1px 1px 0;
+}
+
+
+tbody{
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+/************** HISTORIQUE CONTACT **************/
+
+/************** BOUTON APPEL **************/
+
+
+.btn-call button{
+   margin: 1rem;
+    font-size: 1.5vh !important;
+
+}
+#historique-appel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+
+#historique-appel h2{
+   background-color: blue;
+   border: 1px solid black;
+   border-radius: 10px;
+   width: 50vh;
+   color: white;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   
+
+}
+
+#historique-appel h2 p{
+    font-size: 1rem;
+    margin-left: 45vh ;
+    margin-top: 2vh;
+    position: absolute;
+    color: grey;
+}
+
+/************** TAB CONTACT **************/
+
+.fiche-contact tr{
+    border: 1px solid white;
+    color: white;
+    font-weight: none;
+    width: 300px;
+}
+.fiche-contact th{
+
+    text-align: start;
+}
+
+.fiche-contact td{
+    border: 1px solid white;
+}
+
+.fiche-contact table{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+/************** DERNIERE VISITE **************/
+.last-visite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.last-visite p{
+    margin-top: 20px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    width: 40vh;
+}
+
+.last-visite h2{
+    width: 40vh !important;
+ }
+
+ /************** GESTION VISITE **************/
+
+ .gestion-visite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .gestion-visite button{
+    width: 20vh;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+
+ /************** INFORMATIONS CLIENTS **************/
+
+ .form-clients{
+    color: white;
+    box-shadow: 0.1px 2px 5px 1px;
+    background-color: grey;
+ }
+ .form-clients h2{
+    margin-top: -40px;
+    margin-left: 20px;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
+    width: 29vh;
+    color: white;
+
+ }
+
+ .style-proche{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1vh;
+ }
+ #company{
+    width: auto;
+    height: 4.5vh;
+    margin-top: 20%;
+ }
+ #company2{
+    width: auto;
+    height: 4.5vh;
+    margin-left: 5%;
+    width: 25%;
+ }
+
+ .proche-part1 {
+    margin-left: -4vh;
+    margin-top: 2vh;
+
+ }
+
+ .proche-part1  label{
+    border-bottom: 1px solid blue;
+    border-radius: 10px;
+    position: absolute;
+    padding: 0.1rem;
+
+ }
+ .part-proche label:hover{
+background-color: blue;
+
+ }
+ .radio-custom{
+    width: 16vh;
+    margin-left: 2vh;
+ }
+
+ .part-proche{
+    display: flex;
+    text-align: start;
+
+ }
+
+ .part-proche1{
+    position: absolute;
+    
+ }
+ .proche-middle label{
+    margin-left: 1vh;
+    border: none !important;
+    width: 15vh;
+    vertical-align: bottom !important;
+ }
+ .proche-middle{
+    width: 11vh;
+    height: 2vh;
+    text-align: center;
+
+ }
+
+ #gare{
+    margin-bottom: 1.5vh;
+ }
+
+ #centre-commercial{
+    margin-left: 15px;
+ }
+
+ .btn-style{
+    vertical-align: bottom !important;
+    margin-bottom: 10px;
+
+ }
+ .code{
+    display: flex;
+    margin-top: 5px !important;
+    align-content: center;
+    padding-left: 0 !important;
+ }
+
+ .guichet, .banque{
+    width: 20vh;
+ }
+
+ .compte{
+    display: flex;
+    margin-top: 5px !important;
+    padding-left: 0 !important;
+ }
+
+ .num-compte, .clef{
+    width: 20vh;
+ }
